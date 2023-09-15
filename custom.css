@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(212, 184, 184);
+    color: rgb(0, 25, 249);
+}
+
+.btn-custom {
+    background-color: #09f593; /* แทนด้วยสีที่คุณต้องการ */
+    color: #FFFFFF; /* แทนด้วยสีข้อความที่คุณต้องการ */
+    border: none; /* ถ้าคุณต้องการให้ปุ่มไม่มีขอบ */
+}
+
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom.active {
+    background-color: #0A2342; /* แทนด้วยสีที่คุณต้องการเมื่อปุ่มถูกคลิก */
+    border-color: #05121A; /* แทนด้วยสีเส้นขอบเมื่อปุ่มถูกคลิก */
+}
+
+
+
+
+/*# sourceMappingURL=custom.css.map */
